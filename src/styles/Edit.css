@@ -1,0 +1,44 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    width: 500px; /* Ajusta el ancho del modal según tus necesidades */
+    height: 600px; /* Ajusta la altura del modal según tus necesidades */
+    border-radius: 5px;
+  }
+  .section-form{
+    padding: 5%;
+
+  }
+
+  .form-button {
+    background-color: #fe9e0d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    align-self: center;
+}
+.modal-button{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 18%;
+}
+
+.section-buttons{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
